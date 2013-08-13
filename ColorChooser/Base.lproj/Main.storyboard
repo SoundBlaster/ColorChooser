@@ -261,7 +261,7 @@
         <scene sceneID="DXU-6q-Bqv">
             <objects>
                 <navigationController definesPresentationContext="YES" id="tYJ-sE-btC" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dOV-G3-Mkf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="dOV-G3-Mkf">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

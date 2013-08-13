@@ -15,9 +15,11 @@ UIColor *_color;
 @property (weak, nonatomic) IBOutlet UISlider *rSlider;
 @property (weak, nonatomic) IBOutlet UISlider *gSlider;
 @property (weak, nonatomic) IBOutlet UISlider *bSlider;
+@property (weak, nonatomic) IBOutlet UISlider *aSlider;
 @property (weak, nonatomic) IBOutlet UILabel *rLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bLabel;
+@property (weak, nonatomic) IBOutlet UILabel *aLabel;
 @property (weak, nonatomic) IBOutlet UIView *controlView;
 
 @property (weak, nonatomic) IBOutlet UISlider *rBgSlider;

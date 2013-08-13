@@ -61,13 +61,18 @@
         targetLabel = self.bLabel;
         formatString = @"B: %1.2f";
     }
+
+    if (sender == self.aSlider) {
+        targetLabel = self.aLabel;
+        formatString = @"A: %1.2f";
+    }
     
     [targetLabel setText:[NSString stringWithFormat:formatString, ((UISlider*)sender).value]];
     
     _color = [UIColor colorWithRed:self.rSlider.value
                              green:self.gSlider.value
                               blue:self.bSlider.value
-                             alpha:1.0];
+                             alpha:self.aSlider.value];
     
     self.navigationController.navigationBar.barTintColor = _color;
     [self.controlView setBackgroundColor:_color];
